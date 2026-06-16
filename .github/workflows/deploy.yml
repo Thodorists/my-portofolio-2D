@@ -1,5 +1,8 @@
 name: Deploy to Azure Web App
 
+permissions:
+  id-token: write
+  contents: read
 on:
   push:
     branches:
