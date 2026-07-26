@@ -12,7 +12,10 @@
     .ion-navicon-round{
         display: none;
     }
-    ::-webkit-scrollbar { display: none; });
+    html, body {
+    overflow-y: hidden;
+}
+
     ul{
         gap: 70px;
         padding-left: 45px;
