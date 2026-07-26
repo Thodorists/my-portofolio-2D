@@ -12,6 +12,7 @@
     .ion-navicon-round{
         display: none;
     }
+    ::-webkit-scrollbar { display: none; });
     ul{
         gap: 70px;
         padding-left: 45px;
